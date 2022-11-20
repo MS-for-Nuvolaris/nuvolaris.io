@@ -91,7 +91,7 @@
 						<a href="https://discord.com/invite/VSGG7aQ2Ds">Discord</a>
 						<a href="https://www.linkedin.com/company/nuvolaris-io/">LinkedIn</a>
 						<a href="https://www.youtube.com/channel/UCPt5hk7qcOkESjB7kii1byw">Youtube</a>
-						<a href="mailto:info@nuvolaris.io">Contact Us</a>
+						<a href="/contact">Contact Us</a>
 
 						<a href="mailto:info@nuvolaris.io" class="mt-[13px]">info@nuvolaris.io</a>
 					</div>
