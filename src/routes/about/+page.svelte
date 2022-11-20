@@ -3,5 +3,9 @@
 	// import AboutMobile from './AboutMobile.svelte';
 </script>
 
+<svelte:head>
+	<title>About Us - Nuvolaris: Join the serverless revolution!</title>
+</svelte:head>
+
 <About />
 <!-- <AboutMobile /> -->

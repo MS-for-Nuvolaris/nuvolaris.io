@@ -3,5 +3,9 @@
 	// import ProductMobile from './ProductMobile.svelte';
 </script>
 
+<svelte:head>
+	<title>Product description - Nuvolaris: Join the serverless revolution!</title>
+</svelte:head>
+
 <Product />
 <!-- <ProductMobile /> -->

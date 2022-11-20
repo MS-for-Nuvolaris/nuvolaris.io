@@ -15,6 +15,10 @@
 	];
 </script>
 
+<svelte:head>
+	<title>Download the latest release - Nuvolaris: Join the serverless revolution!</title>
+</svelte:head>
+
 <div id="mobile-page-layout" class="pb-[15px]">
 	<div class="bg-nuv-blue h-[214px] w-full px-[41px] flex justify-center">
 		<div

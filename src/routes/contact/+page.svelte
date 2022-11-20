@@ -3,6 +3,10 @@
 	import ContactUsForm from '$lib/components/ContactUsForm.svelte';
 </script>
 
+<svelte:head>
+	<title>Contact Us - Nuvolaris: Join the serverless revolution!</title>
+</svelte:head>
+
 <div class="bg-nuv-blue w-full h-full flex justify-center">
 	<div class="bg-white h-[686px] w-1/2 mt-[80px] rounded-2xl shadow-nuv-box-shadow flex">
 		<div class="h-full w-1/2 p-5">
