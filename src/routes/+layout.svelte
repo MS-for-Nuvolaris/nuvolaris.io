@@ -10,7 +10,7 @@
 	<!-- {#if page === Download}
 		<div class="bg-nuv-blue top-0 h-[100px] w-full relative" />
 		{/if} -->
-	<Menu showMenuSx />
+	<Menu showMenuSx="false" />
 	<slot />
 </main>
 <Bottom />
