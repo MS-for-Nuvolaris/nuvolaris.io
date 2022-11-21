@@ -1,6 +1,6 @@
 <script>
 	import { createEventDispatcher } from 'svelte';
-
+	import closeIcon from '$lib/assets/icons/close-x.png';
 	const dispatch = createEventDispatcher();
 
 	function handleClose() {
@@ -16,7 +16,7 @@
 		class="h-fit w-fit flex flex-col items-center bg-white shadow-nuv-box-shadow rounded-[20px] overflow-hidden"
 	>
 		<button on:click={handleClose} class="self-end mr-[19px]">
-			<img src="/assets/icons/close-x.png" alt="close" class="h-[40px]" />
+			<img src={closeIcon} alt="close" class="h-[40px]" />
 		</button>
 		{#if innerWidth >= 1280}
 			<p>
