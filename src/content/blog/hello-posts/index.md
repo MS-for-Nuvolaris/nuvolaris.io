@@ -7,5 +7,5 @@ date: 23/01/1974
 
 Here is a list of all the blogs
 
-- [First blog](/blog/first-blog)
-- [Second Blog](/blog/second-blog)
+- [First blog](/blog/first-post)
+- [Second Blog](/blog/second-post)
