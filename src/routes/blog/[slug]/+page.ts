@@ -6,7 +6,7 @@ export const load: PageLoad = async ({ params }) => {
 	const { title, date } = post.metadata;
 	const content = post.default;
 	return {
-		content: post.default,
+		content,
 		title,
 		date
 	};

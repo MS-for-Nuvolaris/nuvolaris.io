@@ -4,7 +4,7 @@ export const load: PageServerLoad = async () => {
 	const postsModuleFiles = import.meta.glob('../../content/blog/**/*.md');
 	const postsMetadata = await Promise.all(
 		Object.entries(postsModuleFiles).map(async ([path, content]) => {
-			const subDir = path
+			const slug = path
 				.replace(/(\/index)?\.md/, '')
 				.split('/')
 				.pop();
@@ -12,7 +12,7 @@ export const load: PageServerLoad = async () => {
 				metadata: { title, date }
 			}: any = await content();
 			return {
-				path: subDir,
+				slug,
 				title,
 				date
 			};

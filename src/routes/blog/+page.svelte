@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let data: any;
+	export let data: { posts: [{ slug: any; title: any; date: any }] };
 </script>
 
 <div>&nbsp;</div>
@@ -12,7 +12,7 @@
 	{#each data.posts as post}
 		<li>
 			<h2>
-				<a href={'blog/' + post.path}>{post.title} <small>Published {post.date}</small></a>
+				<a href={'blog/' + post.slug}>{post.title} <small>Published {post.date}</small></a>
 			</h2>
 		</li>
 	{/each}

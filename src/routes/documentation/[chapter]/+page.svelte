@@ -1,6 +1,6 @@
 <script lang="ts">
-	export let data;
-	const { title, content } = data;
+	export let data: { title: any; content: any };
+	$: ({ title, content } = data);
 </script>
 
 <svelte:head>
