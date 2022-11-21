@@ -35,6 +35,8 @@ ${pagesUrls
 		(pageUrl: string) => `
     <url>
 	  <loc>${siteUrl}/${pageUrl}</loc>
+	  <priority>1.0</priority>
+	  <changefreq>monthly</changefreq>
 	  <lastmod>${`${process.env.VITE_BUILD_TIME}`}</lastmod>
 	</url>`
 	)
