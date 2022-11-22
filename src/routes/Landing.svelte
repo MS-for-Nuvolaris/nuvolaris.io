@@ -128,19 +128,19 @@
 
 <ThreeDots />
 
-<section id="nuvolaris-framework" class="flex mt-[25px] flex-col items-center">
+<section id="nuvolaris-framework" class="flex mt-4 flex-col items-center">
 	<span class="text-nuv-blue text-[40px] leading-[46px] font-semibold">
 		Nuvolaris is the final Serverless Framework
 	</span>
 	<span class="text-[#333030]/[.71] text-[24px] leading-[28px] font-medium">
 		PROGRAMMING LANGUAGES SUPPORTED
 	</span>
-	<div class="flex items-center mt-[32px]">
+	<div class="mt-4 p-4 w-1/2 flex justify-around align-middle">
 		<img src={nodeIcon} alt="nodejs" width="120" height="80" />
 		<img src={pythonIcon} alt="python" width="140" height="80" />
 		<img src={dockerIcon} alt="docker" width="140" height="80" />
 	</div>
-	<div class="flex items-center">
+	<div class="p-4 w-1/2 flex justify-around align-middle">
 		<img src={javaIcon} alt="java" width="120" height="80" />
 		<img src={goIcon} alt="go" width="100" height="80" />
 		<img src={phpIcon} alt="php" width="80" height="80" />
