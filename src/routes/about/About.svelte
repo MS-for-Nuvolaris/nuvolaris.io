@@ -1,9 +1,9 @@
 <script>
 	import PageLayout from '$lib/components/PageLayout.svelte';
 	import TeamItem from '$lib/components/TeamItem.svelte';
-	import michele from '$lib/assets/team/msciab.jpg';
-	import mirella from '$lib/assets/team/Mirella.png';
-	import irina from '$lib/assets/team/irina.png';
+	import michele from '$lib/assets/team/msciab.webp';
+	import mirella from '$lib/assets/team/Mirella.webp';
+	import irina from '$lib/assets/team/irina.webp';
 	import nuvAbout from '$lib/assets/nuvolaris-about-illustration.svg';
 
 	let team = [
