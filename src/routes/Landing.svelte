@@ -136,16 +136,16 @@
 		PROGRAMMING LANGUAGES SUPPORTED
 	</span>
 	<div class="flex items-center mt-[32px]">
-		<img src={nodeIcon} alt="nodejs" />
-		<img src={pythonIcon} alt="python" />
-		<img src={dockerIcon} alt="docker" />
+		<img src={nodeIcon} alt="nodejs" width="120" height="80" />
+		<img src={pythonIcon} alt="python" width="140" height="80" />
+		<img src={dockerIcon} alt="docker" width="140" height="80" />
 	</div>
 	<div class="flex items-center">
-		<img src={javaIcon} alt="java" class="mr-[31px]" />
-		<img src={goIcon} alt="go" class="mr-[31px]" />
-		<img src={phpIcon} alt="php" />
-		<img src={rubyIcon} alt="ruby" />
-		<img src={swiftIcon} alt="swift" />
+		<img src={javaIcon} alt="java" width="120" height="80" />
+		<img src={goIcon} alt="go" width="100" height="80" />
+		<img src={phpIcon} alt="php" width="80" height="80" />
+		<img src={rubyIcon} alt="ruby" width="100" height="80" />
+		<img src={swiftIcon} alt="swift" width="120" height="80" />
 	</div>
 	<span class="text-black text-[24px] leading-[28px] font-normal mb-[57px] mt-[49px]"
 		>Nuvolaris supports internal services Cache Redis, DB rqlite, Object Storage minio</span
