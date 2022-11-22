@@ -1,5 +1,4 @@
 <script lang="ts">
-	import Menu from '$lib/components/Menu.svelte';
 	import Top from '$lib/components/Top.svelte';
 	import Bottom from '$lib/components/Bottom.svelte';
 	import '../app.postcss';
@@ -11,7 +10,6 @@
 	<!-- {#if page === Download}
 		<div class="bg-nuv-blue top-0 h-[100px] w-full relative" />
 		{/if} -->
-	<Menu showMenuSx="false" />
 	<slot />
 </main>
 <Bottom />

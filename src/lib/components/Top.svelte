@@ -1,7 +1,14 @@
 <script lang="ts">
+	import MobileMenu from '$lib/components/MobileMenu.svelte';
 	import nuvLogoBlue from '$lib/assets/nuvolaris-logo-new-blue.svg';
 	import nuvLogoWhite from '$lib/assets/nuvolaris-logo-new-white.svg';
 	import sandwichMenuIcon from '$lib/assets/icons/sandwich-menu-icon.png';
+
+	let showMobileMenu = false;
+
+	function toggleShowMobileMenu() {
+		showMobileMenu = !showMobileMenu;
+	}
 </script>
 
 <header
@@ -22,11 +29,11 @@
 			class="bg-[#FFA944] h-full px-[10px] rounded-b-[20px] leading-[96px] pt-[6px]">Download</a
 		>
 	</div>
-
 	<button class="xl:hidden">
-		<img src={sandwichMenuIcon} alt="sandwich menu" />
+		<img src={sandwichMenuIcon} alt="sandwich menu" on:click={toggleShowMobileMenu} />
 	</button>
 </header>
+<MobileMenu show={showMobileMenu} toggle={toggleShowMobileMenu} />
 
 <style>
 	img {
