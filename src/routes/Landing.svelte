@@ -135,12 +135,12 @@
 	<span class="text-[#333030]/[.71] text-[24px] leading-[28px] font-medium">
 		PROGRAMMING LANGUAGES SUPPORTED
 	</span>
-	<div class="mt-4 p-4 w-1/2 flex justify-around align-middle">
+	<div class="mt-4 p-4 w-1/2 flex justify-around">
 		<img src={nodeIcon} alt="nodejs" width="120" height="80" />
 		<img src={pythonIcon} alt="python" width="140" height="80" />
 		<img src={dockerIcon} alt="docker" width="140" height="80" />
 	</div>
-	<div class="p-4 w-1/2 flex justify-around align-middle">
+	<div class="p-4 w-1/2 flex justify-around">
 		<img src={javaIcon} alt="java" width="120" height="80" />
 		<img src={goIcon} alt="go" width="100" height="80" />
 		<img src={phpIcon} alt="php" width="80" height="80" />
