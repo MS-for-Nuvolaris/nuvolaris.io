@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Troubleshootin
 ---
 
 # Troubleshooting

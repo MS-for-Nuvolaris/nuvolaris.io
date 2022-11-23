@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Install on Kubernetes
 ---
 
 # Installing Nuvolaris on a Kubernetes cluster

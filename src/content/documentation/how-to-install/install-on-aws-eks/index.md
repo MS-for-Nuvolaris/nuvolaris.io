@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Install on AWS EKS Cluster
 ---
 
 # Install in an AWS EKS Cluster

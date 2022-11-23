@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Install on Hetzner
 ---
 
 # Install on an Hetzner Cloud single instance

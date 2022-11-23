@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Install on Docker Desktop
 ---
 
 # Install on Docker Desktop

@@ -14,7 +14,7 @@ It is based on [Apache OpenWhisk](https://openwhisk.apache.org/), and open sourc
 
 ## Learn More
 
-- Learn [how to install Nuvolaris](/documentation/installation).
+- Learn [how to install Nuvolaris](/documentation/how-to-install).
 - Read [a book on Apache OpenWhisk](https://www.amazon.com/Learning-Apache-OpenWhisk-Developing-Serverless-ebook/dp/B07TYSXWNN/)
 - Read [the Apache OpenWhisk documentation](https://openwhisk.apache.org/documentation.html).
 

@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Install on Minikube
 ---
 
 ### Installing on Minikube
