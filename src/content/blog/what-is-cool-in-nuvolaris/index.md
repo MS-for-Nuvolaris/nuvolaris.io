@@ -2,15 +2,14 @@
 title: What is cool in Nuvolaris
 author: Irina Branovic
 date: 15 August 2022
-topic: Development
 image: collin-armstrong-SR0_MNa77MU-unsplash.webp
+topic: Development
+summary: Nuvolaris is an open source project you can find interesting to contribute to. Let me list some cool things that a developer enthusiast can find in the project itself.
 ---
 
 ![cool spelled in fireworks](./collin-armstrong-SR0_MNa77MU-unsplash.webp)
 
 Nuvolaris is an open source project you can find interesting to contribute to. Let me list some cool things that a developer enthusiast can find in the project itself.
-
-<!--!-->
 
 All repositories are linked via git submodules so that you know exactly which version of the source is being used.
 

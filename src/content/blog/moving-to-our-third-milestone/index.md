@@ -4,13 +4,12 @@ author: Leonardo Cigolini Gulesu
 date: 20 August 2022
 image: kelsey-chance-tAH2cA_BL5g-unsplash.webp
 topic: News
+summary: Afther just 8 months of running our project, we already have 12 contributors to the Nuvolaris project and are moving to our third milestone. Let's talk about this.
 ---
 
 ![celebration](./kelsey-chance-tAH2cA_BL5g-unsplash.webp)
 
 Afther just 8 months of running our project, we already have 12 contributors to the Nuvolaris project and are moving to our third milestone. Let's talk about this.
-
-<!--!-->
 
 So I have been asked: "How the hell did you do it? I've been running an open-source project for years, but nobody ever came to help me...". Here are my thoughts on the matter.
 

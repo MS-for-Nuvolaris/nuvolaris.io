@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Install on Ubuntu
 ---
 
 # Installing Nuvolaris in an Ubuntu instance

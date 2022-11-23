@@ -1,5 +1,5 @@
 ---
-title: Install on Ubuntu
+title: Installation
 ---
 
 # Installation

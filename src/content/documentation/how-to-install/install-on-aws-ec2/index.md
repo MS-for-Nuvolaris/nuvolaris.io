@@ -1,5 +1,5 @@
 ---
-title: Install on AWS EC2
+title: Install on AWS EC2 Instance
 ---
 
 # Install on an AWS EC2 Instance

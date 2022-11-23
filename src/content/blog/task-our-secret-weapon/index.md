@@ -2,15 +2,14 @@
 title: Task, our secret weapon
 author: Michele Sciabarra
 date: 18 August 2022
-topic: Tips
 image: artem-labunsky-H9vQC7wfhTQ-unsplash.webp
+topic: Tips
+summary: When you are developing software, an absolutely fundamental and indispensable tool is the one you use to make builds. Let's talk of what we chose for Nuvolaris.
 ---
 
 ![crane](./artem-labunsky-H9vQC7wfhTQ-unsplash.webp)
 
 When you are developing software, an absolutely fundamental and indispensable tool is the one you use to make builds. Let's talk of what we chose for Nuvolaris.
-
-<!--!-->
 
 The original tool, the most important of all build tools is Make, which is an all-rounder tool under Unix. Unfortunately, in the world of software development, every programming language has invented its own... or rather, its own.
 

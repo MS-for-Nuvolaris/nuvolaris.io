@@ -4,6 +4,7 @@ author: Michele Sciabarra
 date: 23 August 2022
 image: sean-pollock-PhYq704ffdA-unsplash.webp
 topic: News
+summary: The mission of a startup is to find its product-market fit. And what is important to realize is that the actual market for your product can be very different from what you initially think.
 ---
 
 ![urban canyon](./sean-pollock-PhYq704ffdA-unsplash.webp)

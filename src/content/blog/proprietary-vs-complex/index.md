@@ -4,13 +4,12 @@ author: Michele Sciabarra
 date: 22 August 2022
 image: proprietary_vs_complex.webp
 topic: Opinion
+summary: 'The dilemma everyone who wants to develop cloud-native applications faces today is: should I choose Serverless or Kubernetes?'
 ---
 
 ![proprietary vs complex](./proprietary_vs_complex.webp)
 
 The dilemma everyone who wants to develop cloud-native applications faces today is: should I choose Serverless or Kubernetes?
-
-<!--!-->
 
 Serverless offers a gentle introduction to the cloud. You just need to write your code, send to the cloud and it will run automagically. The cloud provides all the services you need including automated scaling.
 
