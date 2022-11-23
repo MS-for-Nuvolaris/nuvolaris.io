@@ -8,18 +8,18 @@ title: Installation
 
 You can install it in the following supported environments:
 
-- [Install on Docker Desktop](/documentation/installation/install-docker-desktop).
-- [Install on a single instance on AWS EC2 Instance](/documentation/installation/install-aws-ec2).
-- [Install on a single instance on Hetzner Cloud](/documentation/installation/install-hetzner-cloud).
-- [Install on an AWS EKS Cluster](/documentation/installation/install-aws-eks).
-- [Install on a generic Ubuntu Instance](/documentation/installation/install-ubuntu), tested on AWS and Hetzner
-- [Install on a Kubernetes Cluster](/documentation/installation/install-kubernetes), tested on EKS, AKS and GKE
+- [Install on Docker Desktop](/documentation/install-docker-desktop).
+- [Install on a single instance on AWS EC2 Instance](/documentation/install-aws-ec2).
+- [Install on a single instance on Hetzner Cloud](/documentation/install-hetzner-cloud).
+- [Install on an AWS EKS Cluster](/documentation/install-aws-eks).
+- [Install on a generic Ubuntu Instance](/documentation/install-ubuntu), tested on AWS and Hetzner
+- [Install on a Kubernetes Cluster](/documentation/install-kubernetes), tested on EKS, AKS and GKE
 
 It may work on other Docker/Kubernetes environment but it has not been tested elsewhere yet, so you mileage may vary.
 
 More environments are on the roadmap.
 
-If something goes wrong, here is [what to do to report problems](/documentation/installation/troubleshooting).
+If something goes wrong, here is [what to do to report problems](/documentation/troubleshooting).
 
 ## TL;DR
 
