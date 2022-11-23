@@ -2,7 +2,7 @@
 	import PageLayout from '$lib/components/PageLayout.svelte';
 	import TeamItem from '$lib/components/TeamItem.svelte';
 	import michele from '$lib/assets/team/msciab.webp';
-	import mirella from '$lib/assets/team/Mirella.webp';
+	import mirella from '$lib/assets/team/mirella.webp';
 	import irina from '$lib/assets/team/irina.webp';
 	import nuvAbout from '$lib/assets/nuvolaris-about-illustration.svg';
 

@@ -2,7 +2,7 @@
 	import Carousel from '$lib/components/Carousel.svelte';
 	import TeamItem from '$lib/components/TeamItem.svelte';
 	import michele from '$lib/assets/team/msciab.jpg';
-	import mirella from '$lib/assets/team/Mirella.png';
+	import mirella from '$lib/assets/team/mirella.webp';
 	import irina from '$lib/assets/team/irina.png';
 	import nuvAbout from '$lib/assets/nuvolaris-about-illustration.svg';
 
