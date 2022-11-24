@@ -1,8 +1,8 @@
 ---
-title: Installation
+title: How to install
 ---
 
-# Installation
+# How to install
 
 [Nuvolaris](https://www.nuvolaris.io) is an easy to use and portable serverless environment.
 
