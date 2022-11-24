@@ -1,11 +1,17 @@
-<script>
+<script lang="ts">
 	import Landing from './Landing.svelte';
-	// import LandingMobile from './LandingMobile.svelte';
+	import LandingMobile from './LandingMobile.svelte';
+
+	let innerWidth: number;
 </script>
 
 <svelte:head>
 	<title>Home page - Nuvolaris: Join the serverless revolution!</title>
 </svelte:head>
 
-<Landing />
-<!-- <LandingMobile /> -->
+<svelte:window bind:innerWidth />
+{#if innerWidth > 1200}
+	<Landing />
+{:else}
+	<LandingMobile />
+{/if}

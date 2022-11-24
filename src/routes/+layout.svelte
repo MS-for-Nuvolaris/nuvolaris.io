@@ -6,10 +6,7 @@
 </script>
 
 <Top />
-<main class="xl:min-h-500px max-w-[100vw] overflow-x-hidden">
-	<!-- {#if page === Download}
-		<div class="bg-nuv-blue top-0 h-[100px] w-full relative" />
-		{/if} -->
+<main class="">
 	<slot />
 </main>
 <Bottom />
