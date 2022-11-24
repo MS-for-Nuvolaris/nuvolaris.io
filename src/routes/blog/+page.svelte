@@ -1,19 +1,49 @@
 <script lang="ts">
-	export let data: { posts: [{ slug: any; title: any; date: any }] };
+	import PostCard from '$lib/components/PostCard.svelte';
+
+	const autorsImagesFiles = {
+		'Michele Sciabarrà': import('$lib/assets/team/michele_sciabarra.png'),
+		'Leonardo Cigolini Gulesu': import('$lib/assets/team/michele_sciabarra.png'),
+		'Irina Branovic': import('$lib/assets/team/irina_branovic.png'),
+		unknown: import('$lib/assets/team/placeholder-blog-author.png')
+	};
+
+	export let data: { posts: [any] };
+
+	const getImages = async (post: any) => {
+		return Promise.all([
+			import('./../../content/blog/' + `${post.slug}/${post.image}?url`),
+			autorsImagesFiles[post.author] || autorsImagesFiles['unknown']
+		]).then(([postImageFile, authorImageFile]) => [postImageFile.default, authorImageFile.default]);
+	};
 </script>
 
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-<div>&nbsp;</div>
-
-<h1>Blog</h1>
-<ul>
-	{#each data.posts as post}
-		<li>
-			<h2>
-				<a href={'blog/' + post.slug}>{post.title} <small>Published {post.date}</small></a>
-			</h2>
-		</li>
-	{/each}
-</ul>
+<div class="bg-nuv-blue w-full h-[111px]" />
+<div class="w-full">
+	<div class="text-nuv-blue text-[48px] leading-[56px] mx-auto font-medium text-center mt-[35px]">
+		Nuvolaris Blog
+	</div>
+	<div class="text-nuv-orange text-[24px] leading-[28px] mx-auto font-medium text-center">
+		News & Insights from the cloud to you
+	</div>
+	<div class="mt-[67px] px-[98px]">
+		<div class="flex flex-wrap">
+			{#each data.posts as post}
+				{#await getImages(post)}
+					<h1>Loading posts</h1>
+				{:then [mainImage, authorImage]}
+					<PostCard
+						slug={post.slug}
+						title={post.title}
+						date={post.date}
+						authorName={post.author}
+						{authorImage}
+						{mainImage}
+						topic={post.topic}
+						summary={post.summary}
+					/>
+				{/await}
+			{/each}
+		</div>
+	</div>
+</div>

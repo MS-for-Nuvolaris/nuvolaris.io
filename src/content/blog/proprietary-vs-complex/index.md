@@ -1,6 +1,6 @@
 ---
 title: The problem today in cloud native development
-author: Michele Sciabarra
+author: Michele Sciabarrà
 date: 22 August 2022
 image: proprietary_vs_complex.webp
 topic: Opinion

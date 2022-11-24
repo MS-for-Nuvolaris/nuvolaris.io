@@ -8,13 +8,10 @@ export const load: PageServerLoad = async () => {
 				.replace(/(\/index)?\.md/, '')
 				.split('/')
 				.pop();
-			const {
-				metadata: { title, date }
-			}: any = await content();
+			const { metadata } = await content();
+			metadata.slug = slug;
 			return {
-				slug,
-				title,
-				date
+				...metadata
 			};
 		})
 	);

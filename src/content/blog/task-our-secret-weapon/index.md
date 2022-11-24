@@ -1,6 +1,6 @@
 ---
 title: Task, our secret weapon
-author: Michele Sciabarra
+author: Michele Sciabarrà
 date: 18 August 2022
 image: artem-labunsky-H9vQC7wfhTQ-unsplash.webp
 topic: Tips

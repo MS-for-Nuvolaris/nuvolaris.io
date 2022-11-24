@@ -1,6 +1,6 @@
 ---
 title: The Nuvolaris product-market fit
-author: Michele Sciabarra
+author: Michele Sciabarrà
 date: 23 August 2022
 image: sean-pollock-PhYq704ffdA-unsplash.webp
 topic: News
