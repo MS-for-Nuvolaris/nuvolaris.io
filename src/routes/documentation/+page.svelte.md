@@ -1,8 +1,4 @@
----
-title: Documentation
----
-
-# Nuvolaris Documentation
+# Nuvolaris
 
 _Nuvolaris_ is an easy-to-use, productive and simple cloud-native development environment.
 

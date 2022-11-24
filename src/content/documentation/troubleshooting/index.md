@@ -1,5 +1,5 @@
 ---
-title: Troubleshootin
+title: Troubleshooting
 ---
 
 # Troubleshooting

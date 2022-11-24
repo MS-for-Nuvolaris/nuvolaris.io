@@ -9,8 +9,6 @@
 </svelte:head>
 
 <article>
-	<h1>{title}</h1>
-
 	<div class="prose">
 		<svelte:component this={content} />
 	</div>
