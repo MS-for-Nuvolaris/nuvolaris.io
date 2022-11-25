@@ -38,8 +38,7 @@
 		>
 			A <br /> B <br /> O <br /> U <br /> T
 		</div>
-		<div class="bg-[#006EB7] w-[591px] h-[423.5px] absolute" />
-		<img src={nuvAbout} alt="nuvolaris illustration" class="w-[760px] ml-auto" />
+		<img src={nuvAbout} alt="nuvolaris illustration" />
 	</div>
 	<div class="flex w-full bg-white shadow-nuv-box-shadow mb-[100px]">
 		<div class="pl-[72px] pr-[45px] pt-[45px]">
