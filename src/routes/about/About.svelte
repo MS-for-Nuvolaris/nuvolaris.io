@@ -43,7 +43,7 @@
 	<div class="flex w-full bg-white shadow-nuv-box-shadow mb-[100px]">
 		<div class="pl-[72px] pr-[45px] pt-[45px]">
 			<div class="py-[49px] pl-[30px] pr-[65px] mt-[44px] flex justify-center sticky">
-				<ul class="text-nuv-blue font-normal text-[36px] leading-[42px] list-disc">
+				<ul class="text-nuv-blue font-normal text-[24px] leading-[42px] list-disc">
 					<li>
 						<a href="#ourstory">Our Story</a>
 					</li>

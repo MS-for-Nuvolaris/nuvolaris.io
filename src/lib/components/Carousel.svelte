@@ -37,12 +37,12 @@
 
 <svelte:window bind:innerWidth={windowWidth} />
 
-<div class="relative flex items-center">
+<div class="relative flex items-center overflow-x-hidden ">
 	<div class="absolute w-full flex justify-between px-[30px]">
 		<button on:click={handleBack}>&#10094;</button>
 		<button on:click={handleNext}>&#10095;</button>
 	</div>
-	<div class="flex w-fit items-center sm:pl-0" bind:offsetWidth style={cssVarStyles}>
+	<div class="flex w-fit items-center justify-evenly" bind:offsetWidth style={cssVarStyles}>
 		<slot />
 	</div>
 </div>

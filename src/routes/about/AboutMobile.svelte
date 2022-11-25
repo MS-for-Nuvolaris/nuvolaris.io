@@ -78,11 +78,6 @@
 			{/each}
 		</Carousel>
 	</div>
-	<div class="hidden md:flex md:flex-wrap md:justify-around w-full my-[30px] px-[24px]">
-		{#each team as member}
-			<TeamItem {...member} />
-		{/each}
-	</div>
 	<div class="bg-nuv-download-gray/[.11] mt-[70px] pt-[26px] pb-[16px]">
 		<span class="text-nuv-blue text-[24px] leading-[28px] font-bold ml-[30px]"> Download </span>
 
