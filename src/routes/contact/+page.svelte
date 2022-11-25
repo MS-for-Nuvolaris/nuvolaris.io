@@ -8,12 +8,12 @@
 </svelte:head>
 
 <div class="bg-nuv-blue w-full h-full flex justify-center">
-	<div class="bg-white h-[686px] w-1/2 mt-[80px] rounded-2xl shadow-nuv-box-shadow flex">
-		<div class="h-full w-1/2 p-5">
+	<div class="flex bg-white w-5/6 mt-[80px] rounded-2xl shadow-nuv-box-shadow">
+		<div class="h-full xl:w-1/2 p-5 :w-full">
 			<ContactUsForm />
 		</div>
 
-		<div class="h-full w-1/2 flex justify-center items-center">
+		<div class="h-full w-1/2 hidden md:flex justify-center items-center">
 			<img src={contactUsImg} alt="contact-us" />
 		</div>
 	</div>

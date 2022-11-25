@@ -1,6 +1,5 @@
 <script lang="ts">
 	import arrowRightIcon from '$lib/assets/icons/arrow-right.png';
-	import magGlassIcon from '$lib/assets/icons/magnifying-glass.png';
 	import micheleGiaccaImg from '$lib/assets/founders/michele_giacca.jpeg';
 </script>
 
@@ -54,16 +53,6 @@
 		</div>
 		<br />
 	</div>
-</div>
-<div class="w-full px-[28px] py-[22px] bg-nuv-light-blue xl:hidden">
-	<span class="bg-white h-[40px] w-full rounded-[44px] flex items-center px-[15px]">
-		<img src={magGlassIcon} class="w-[24px] h-[23px]" alt="magnifying glass" />
-		<input
-			type="text"
-			placeholder="Search"
-			class="placeholder:text-nuv-placeholder h-full w-full ml-[10px]"
-		/>
-	</span>
 </div>
 
 <style>
