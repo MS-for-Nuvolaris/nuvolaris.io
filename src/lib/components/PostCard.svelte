@@ -20,7 +20,7 @@
 		</span>
 		<span class="text-[14px] leading-[16px] font-normal mt-[10px]">
 			{summary}
-			<br /><br /><a href={'/blog' + `/${slug}`}>Read more...</a>
+			<br /><br /><a href={'/blog' + `/${slug}`} class='text-nuv-orange'>Read more...</a>
 		</span>
 		<div class="mt-[30px] flex">
 			<img src={authorImage} alt={authorName} class="w-[32px] h-[32px] rounded-[16px]" />

@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Carousel from '$lib/components/Carousel.svelte';
 	import FeatureItem from '$lib/components/FeatureItem.svelte';
 

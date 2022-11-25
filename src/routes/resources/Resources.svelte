@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import rightArrowIcon from '$lib/assets/icons/arrow-right.png';
 	import PageLayout from '$lib/components/PageLayout.svelte';
 </script>

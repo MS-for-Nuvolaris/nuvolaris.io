@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import NuvolarisHeroSvg from '$lib/components/NuvolarisHeroSvg.svelte';
 	import ThreeDots from '$lib/components/ThreeDots.svelte';
 	import OrangeCloud from '$lib/components/OrangeCloud.svelte';

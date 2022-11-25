@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import featureCloud from '$lib/assets/landing-feature-cloud.svg';
 	import nuvSchema from '$lib/assets/nuvolaris-schema2.png';
 	import nuvBuilder from '$lib/assets/nuvolaris-builder.png';
@@ -6,13 +6,10 @@
 </script>
 
 <PageLayout>
-	<div class="flex w-full bg-white shadow-nuv-box-shadow mb-[100px]">
+	<div class="flex w-full shadow-nuv-box-shadow mb-[100px]">
 		<div class="pl-[72px] pr-[45px] pt-[45px]">
-			<img src={featureCloud} alt="feature" class="w-[348px] h-[301px]" />
-			<div
-				class="py-[49px] pl-[30px] pr-[65px] shadow-nuv-box-shadow mt-[44px] flex justify-center sticky"
-			>
-				<ul class="text-nuv-blue font-normal text-[36px] leading-[42px] list-disc">
+			<img src={featureCloud} alt="feature" height="301" width="348" />
+				<ul class="text-nuv-blue font-normal text-[24px] leading-[42px] list-disc">
 					<li>
 						<a href="#overview">Overview</a>
 					</li>
@@ -23,10 +20,9 @@
 						<a href="#download">Download</a>
 					</li>
 				</ul>
-			</div>
 		</div>
 		<div class="w-[2px] h-[770px] bg-nuv-blue mt-[117px]" />
-		<div class="pt-[106px] w-full">
+		<div class="pt-[106px]">
 			<div id="overview" class="text-nuv-blue font-semibold text-[48px] leading-[56px] ml-[81px]">
 				What is Nuvolaris?
 			</div>

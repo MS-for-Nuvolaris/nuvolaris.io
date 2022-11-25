@@ -12,7 +12,7 @@
 </script>
 
 <header
-	class="flex justify-between items-center bg-nuv-blue px-3 xl:px-[100px] h-24 xl:h-[86px] xl:w-full xl:z-50"
+	class="flex justify-between items-center xl:bg-nuv-blue px-3 xl:px-[100px] h-24 xl:h-[86px] xl:w-full xl:z-50"
 >
 	<a href="/">
 		<img src={nuvLogoBlue} alt="nuvolaris logo" class="xl:hidden mr-[80px] pt-3" />

@@ -10,7 +10,7 @@
 </svelte:head>
 
 <svelte:window bind:innerWidth />
-{#if innerWidth > 1200}
+{#if innerWidth > 960}
 	<Landing />
 {:else}
 	<LandingMobile />
