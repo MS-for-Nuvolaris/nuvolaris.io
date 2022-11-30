@@ -4,6 +4,7 @@
 	import michele from '$lib/assets/team/msciab.webp';
 	import mirella from '$lib/assets/team/mirella.webp';
 	import irina from '$lib/assets/team/irina.webp';
+	import francesco from '$lib/assets/team/francesco.webp';
 	import nuvAbout from '$lib/assets/nuvolaris-about-illustration.svg';
 
 	let team = [
@@ -15,11 +16,11 @@
 			linkedinLink: 'https://www.linkedin.com/in/msciab/'
 		},
 		{
-			src: irina,
-			alt: 'Irina Branovic',
-			name: 'Irina Branovic',
-			title: 'Founder and CTO',
-			linkedinLink: 'https://www.linkedin.com/in/irinabranovic/'
+			src: francesco,
+			alt: 'Francesco Timperi Tiberi',
+			name: 'Francesco Timperi Tiberi',
+			title: 'CO-Founder and CTO',
+			linkedinLink: 'https://www.linkedin.com/in/francescotimperitiberi/'
 		},
 		{
 			src: mirella,
